@@ -1,0 +1,141 @@
+
+
+.firstBlock{
+    padding-top: 40px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.profileImg{
+    position: relative;
+    max-width: 400px;
+    border-radius: 20px;
+    filter:grayscale(100);
+}
+
+.intro{
+   position:relative;
+   padding-left: 20px;
+   top: 50px; 
+}
+
+.introTitle{
+    font-family: serif;
+    font-size: 70px;
+}
+
+.introHello{
+    font-size: 50px;
+}
+
+.introAbout{
+
+    font-size: 20px;
+}
+
+.butn{
+    background-color: #BBED2F;
+    transition-duration: 250ms;
+}
+.butn:hover{
+    background-color: #a9d62b;
+    ;
+}
+
+.secondBlock{
+    position: relative;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.whoAmI{
+    font-size: 40px;
+}
+.aboutMe{
+    text-align: justify;
+    font-size: 30px;
+}
+
+
+/* simon game css */
+.game-about{
+  position: relative;
+  padding-left: 20px;
+}
+
+.game-div {
+    position: relative;
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+  #level-title {
+    
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  
+  .game-container {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-left: 30%;
+  }
+  
+  .game-btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+/* contact me div */
+
+.contactMeDiv{
+    background-color: black;
+    padding: 20px;
+}
+
+.icons{
+    max-width: 50px;
+    height: auto;
+    padding: 5px;
+}
+
+.footer{
+    text-align: center;
+    padding: 30px;
+    color: rgb(153, 153, 153);
+}
+
